@@ -3,9 +3,11 @@ import nltk
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import os
+
 webpage_dir = r"Webpages"
+# webpage_count = 1
         
-def download_webpage(url):
+def download_webpage(url, webpage_count):
 
     
     html = urlopen(url).read()    
@@ -29,7 +31,8 @@ def download_webpage(url):
     text = txt.encode('unicode-escape').decode('utf-8')
     text = text.replace("\n", " ")
     # print(text)
-    page = url.split("/")[-1] + ".txt"
+    page = "webpage" + str(webpage_count) +  ".txt"
+    # webpage_count = webpage_count + 1
     filename = os.path.join(webpage_dir, page)
     with open(filename, 'w') as filehandle:
                 filehandle.write('%s\n' % text)

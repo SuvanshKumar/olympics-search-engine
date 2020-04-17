@@ -27,9 +27,9 @@ class OlympicSpider(scrapy.Spider):
         print("Vising URL: ",response.url)
         with open('linkslists.txt', 'a') as filehandle:
             filehandle.write('%s\n' % response.url)
-        # Downloading this webpage from the URL
-        download_webpage(response.url)
         self.visited += 1
+        # Downloading this webpage from the URL
+        download_webpage(response.url, self.visited)
         print("Visited count: ", self.visited)
         self.olympics_links.append(response.url)
 
