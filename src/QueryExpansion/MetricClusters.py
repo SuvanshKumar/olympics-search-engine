@@ -5,7 +5,6 @@ import heapq
 import numpy as np
 from nltk.corpus import stopwords
 from nltk import PorterStemmer
-import pysolr
 import pprint
 
 '''
@@ -63,9 +62,6 @@ def get_results_from_solr(query, solr):
 
 # returns a list of tokens
 def tokenize_doc(doc_text, stop_words):
-    # doc_text = doc_text.replace('\n', ' ')
-    # doc_text = " ".join(re.findall('[a-zA-Z]+', doc_text))
-    # tokens = doc_text.split(' ')
     tokens = []
     text = doc_text
     text = re.sub(r'[\n]', ' ', text)
@@ -77,7 +73,7 @@ def tokenize_doc(doc_text, stop_words):
     tokens = [token for token in tkns if token not in stop_words and token != '' and not token.isnumeric()]
     return tokens
 
-# returns a dick containing int as key (token) and dict as value
+# returns a dict containing int as key (token) and dict as value
 # the value of the above is a dict containing int key (doc_ids) and int value (term frequency)
 # tokens_map[token] = {doc_id1: tf1, doc_id2: tf2, ...}
 def get_token_map(docs_list, stop_words):
@@ -112,14 +108,12 @@ def print_top_n(normalized_matrix, stems, query, tokens_map, stem_map, top_n=3):
             i = list(stems).index(porter_stemmer.stem(string))
 
         if i==-1:
-            # print('continuing')
             continue
 
         for j in range(len(normalized_matrix[i])):
             if normalized_matrix[i][j] == 0 \
                 or (normalized_matrix[i][j].u in strings and normalized_matrix[i][j].u != string) \
                 or (normalized_matrix[i][j].v in strings and normalized_matrix[i][j].v != string):
-                # print('continuing 2')
                 continue
 
             if normalized_matrix[i][j].v in tokens_map:
@@ -134,67 +128,13 @@ def print_top_n(normalized_matrix, stems, query, tokens_map, stem_map, top_n=3):
             if len(queue) > top_n:
                 heapq.heappop(queue)
 
-        # for element_row in elements:
-        #     for i in range(len(element_row)):
-        #         element_row[i] = heapq.heappop(queue)
-        # for row in range(len(elements)):
-        #     elements[row] = [heapq.heappop(queue) for _ in range(top_n)]
-
-        # elements[index] = [heapq.heappop(queue) for _ in range(top_n)]
-
         for k in range(top_n):
-            # for k in range(top_n):
             elements[index][k] = heapq.heappop(queue)
         index+=1
-        # print('index', index)
 
     return elements
 
-# def get_metric_clusters(tokens_map, stem_map, query):
-#     # matrix = [[]]
-#     # matrix is a 2-d array (square matrix) of size (len(stem_map.keys())) or len(stem_map)
-#     matrix = np.zeros((len(stem_map), len(stem_map))).tolist()
-#     stems = stem_map.keys()
-#     for i, stem_i in enumerate(stems):
-#         for j, stem_j in enumerate(stems):
-#             if i==j:
-#                 continue
-            
-#             cuv = 0.0
-#             i_strings = stem_map[stem_i]
-#             j_strings = stem_map[stem_j]
-
-#             for string1 in i_strings:
-#                 for string2 in j_strings:
-#                     i_map = tokens_map[string1]
-#                     j_map = tokens_map[string2]
-#                     for document_id in i_map:
-#                         if document_id in j_map:
-#                             if i_map[document_id] - j_map[document_id] != 0:
-#                                 cuv += 1 / abs( i_map[document_id] - j_map[document_id] )
-
-#             matrix[i][j] = (stem_i, stem_j, cuv)
-
-#     normalized_matrix = np.zeros((len(stem_map), len(stem_map))).tolist()
-
-#     for i, stem_i in enumerate(stems):
-#         for j, stem_j in enumerate(stems):
-#             if i==j:
-#                 continue
-
-#             cuv = 0.0
-#             if matrix[i][j] != 0:
-#                 cuv = matrix[i][j][2] / ( len(stem_map[stem_i]) * len(stem_map[stem_j]) )
-
-#             normalized_matrix[i][j] = (stem_i, stem_j, cuv)
-
-#     # print(normalized_matrix.shape())
-#     # pprint.pprint(normalized_matrix)
-#     print_top_n(normalized_matrix, stems, query, tokens_map, stem_map)
-#     # pass
-
 def get_metric_clusters(tokens_map, stem_map, query):
-    # matrix = [[]]
     # matrix is a 2-d array (square matrix) of size (len(stem_map.keys())) or len(stem_map)
     matrix = np.zeros((len(stem_map), len(stem_map))).tolist()
     stems = stem_map.keys()
@@ -231,13 +171,9 @@ def get_metric_clusters(tokens_map, stem_map, query):
 
             normalized_matrix[i][j] = Element(stem_i, stem_j, cuv)
 
-    # print(normalized_matrix.shape())
-    # pprint.pprint(normalized_matrix)
     return print_top_n(normalized_matrix, stems, query, tokens_map, stem_map, top_n=3)
-    # pass
 
-def make_metric_clusters(query, results):
-    top_n = 3
+def make_metric_clusters(query, results, top_n=3):
     stop_words = set(stopwords.words('english'))
     tokens = []
     token_counts = {}
@@ -269,42 +205,3 @@ def make_metric_clusters(query, results):
     extra_terms_list = [element.v for element in elements[-top_n:]]
     extra_terms = ' '.join(extra_terms_list)
     return query + ' ' + extra_terms
-
-def main():
-    top_n = 3
-    stop_words = set(stopwords.words('english'))
-    query = 'winner olympic'
-    solr = pysolr.Solr('http://localhost:8983/solr/nutch/', always_commit=True, timeout=10)
-    results = get_results_from_solr(query, solr)
-    tokens = []
-    token_counts = {}
-    tokens_map = {}
-    # tokens_map = collections.OrderedDict()
-    document_ids = []
-
-    for result in results:
-        document_id = result['digest']
-        document_ids.append(document_id)
-        tokens_this_document = tokenize_doc(result['content'], stop_words)
-        token_counts = collections.Counter(tokens_this_document)
-        for token in tokens_this_document:
-            if token not in tokens_map:
-                tokens_map[token] = {document_id: token_counts[token]}
-            elif document_id not in tokens_map[token]:
-                tokens_map[token][document_id] = token_counts[token]
-            else:
-                tokens_map[token][document_id] += token_counts[token]
-        tokens.append(tokens_this_document)
-
-    # pprint.pprint(tokens_map)
-
-    stem_map = make_stem_map(tokens)
-    # pprint.pprint(stem_map)
-    # print(tokens_map)
-
-    metric_clusters = get_metric_clusters(tokens_map, stem_map, query)
-    pprint.pprint(metric_clusters)
-
-
-if __name__ == '__main__':
-    main()

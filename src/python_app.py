@@ -37,11 +37,19 @@ def get_query():
             else:
                 result = make_response(solr_results)
         elif "query_expansion" in type:
+            expansion_terms = 3
             if 'association' in type:
+                solr_results = get_results_from_solr_page_rank(query)
+                expanded_query = AssociationCluster.make_association_clusters(query, results, top_n = expansion_terms)
+                solr_results = get_results_from_solr_page_rank(expanded_query)
+                if solr_results.hits == 0:
+                    return jsonify("query out of scope")
+                else:
+                    result = make_response(solr_results)
                 pass
             elif 'metric' in type:
                 solr_results = get_results_from_solr_page_rank(query)
-                expanded_query = MetricClusters.make_metric_clusters(query, solr_results)
+                expanded_query = MetricClusters.make_metric_clusters(query, solr_results, top_n = expansion_terms)
                 solr_results = get_results_from_solr_page_rank(expanded_query)
                 if solr_results.hits == 0:
                     return jsonify("query out of scope")
