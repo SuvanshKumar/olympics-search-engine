@@ -12,8 +12,10 @@ import json
 # Create a client instance. The timeout and authentication options are not required.
 solr_vector = pysolr.Solr('http://localhost:8983/solr/project_index_vector/', always_commit=True, timeout=10)
 solr_page_rank = pysolr.Solr('http://localhost:8983/solr/project_index_pagerank/', always_commit=True, timeout=10)
-pickle_file = r"webpage_cluster_inverse"
-cluster_mapping = pickler.unpickle_item(pickle_file)
+pickle_file1 = r"webpage_cluster_inverse"
+k_means_cluster_mapping = pickler.unpickle_item(pickle_file1)
+pickle_file2 = r'webpage_agg_cluster_inverse'
+agg_cluster_mapping = pickler.unpickle_item(pickle_file2)
 with open('authority_score.json','r') as authority_score_file:
     authority_score_dict = json.load(authority_score_file)
 # authority_score_dict = authority_score_dict.replace("'",",")
@@ -31,13 +33,22 @@ def get_query():
         type =  str(request.args['type'])
 
         if "clustering" in type:
-            solr_results = get_results_from_solr_page_rank(query)
-            if solr_results.hits == 0:
-                return jsonify("query out of scope")
-            else:
-                response = make_response(solr_results)
-                response = get_clustering_results(response)
-                result = {"query":query,"response":response}
+            if 'kmeans' in type:
+                solr_results = get_results_from_solr_page_rank(query)
+                if solr_results.hits == 0:
+                    return jsonify("query out of scope")
+                else:
+                    response = make_response(solr_results)
+                    response = get_kmeans_clustering_results(response)
+                    result = {"query":query,"response":response}
+            elif 'agglomerative' in type:
+                solr_results = get_results_from_solr_page_rank(query)
+                if solr_results.hits == 0:
+                    return jsonify("query out of scope")
+                else:
+                    response = make_response(solr_results)
+                    response = get_agglomerative_clustering_results(response)
+                    result = {"query":query,"response":response}
         elif type == "page_rank":
             solr_results = get_results_from_solr_page_rank(query)
             if solr_results.hits == 0:
@@ -132,10 +143,10 @@ def get_results_from_solr_vector(query):
     })
     return results
 
-def get_clustering_results(clust_inp):
+def get_kmeans_clustering_results(clust_inp):
     for result in clust_inp:
         curr_url = result['url']
-        curr_cluster = cluster_mapping.get(curr_url,'99')
+        curr_cluster = k_means_cluster_mapping.get(curr_url,'99')
         result.update({"cluster":curr_cluster})
         result.update({"done":"False"})
     clust_resp = []
@@ -157,6 +168,32 @@ def get_clustering_results(clust_inp):
                         clust_resp.append({"title": remaining_resp["title"], "url": remaining_resp["url"],
                                            "meta_info": remaining_resp["meta_info"], "rank": remaining_resp["rank"]})
 
+    return clust_resp
+
+def get_agglomerative_clustering_results(clust_inp):
+    for result in clust_inp:
+        curr_url = result['url']
+        curr_cluster = agg_cluster_mapping.get(curr_url,'99')
+        result.update({"cluster":curr_cluster})
+        result.update({"done":"False"})
+    clust_resp = []
+    curr_rank = 1
+    for curr_resp in clust_inp:
+        if curr_resp["done"] == "False":
+            curr_cluster = curr_resp["cluster"]
+            curr_resp.update({"done": "True"})
+            curr_resp.update({"rank": str(curr_rank)})
+            curr_rank += 1
+            clust_resp.append({"title": curr_resp["title"], "url": curr_resp["url"],
+                               "meta_info": curr_resp["meta_info"], "rank": curr_resp["rank"]})
+            for remaining_resp in clust_inp:
+                if remaining_resp["done"] == "False":
+                    if remaining_resp["cluster"] == curr_cluster:
+                        remaining_resp.update({"done": "True"})
+                        remaining_resp.update({"rank": str(curr_rank)})
+                        curr_rank += 1
+                        clust_resp.append({"title": remaining_resp["title"], "url": remaining_resp["url"],
+                                           "meta_info": remaining_resp["meta_info"], "rank": remaining_resp["rank"]})
 
     return clust_resp
 
