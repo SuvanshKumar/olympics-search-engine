@@ -1,0 +1,506 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": {
+      "0": {
+        "title": "Google Custom Search - bill",
+        "totalResults": "901000000",
+        "searchTerms": "bill",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "005318817936177028576:rvrnj12rvje"
+      }
+    },
+    "nextPage": {
+      "0": {
+        "title": "Google Custom Search - bill",
+        "totalResults": "901000000",
+        "searchTerms": "bill",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "005318817936177028576:rvrnj12rvje"
+      }
+    }
+  },
+  "context": {
+    "title": "Google"
+  },
+  "searchInformation": {
+    "searchTime": 0.311705,
+    "formattedSearchTime": "0.31",
+    "totalResults": "901000000",
+    "formattedTotalResults": "901,000,000"
+  },
+  "items": {
+    "0": {
+      "kind": "customsearch#result",
+      "title": "Intelligent Bill Payment Platform for Businesses | Bill.com",
+      "htmlTitle": "Intelligent Bill</b> Payment Platform for Businesses | Bill</b>.com",
+      "link": "https://www.bill.com/",
+      "displayLink": "www.bill.com",
+      "snippet": "The intelligent business payments platform. Bill.com brings smart AP and AR \nautomation and new payment capabilities to your business. Use Bill.com and ...",
+      "htmlSnippet": "The intelligent business payments platform. Bill</b>.com brings smart AP and AR automation and new payment capabilities to your business. Use Bill</b>.com and ...",
+      "cacheId": "yWoeIUs1X14J",
+      "formattedUrl": "https://www.bill.com/",
+      "htmlFormattedUrl": "https://www.bill</b>.com/",
+      "pagemap": {
+        "metatags": {
+          "0": {
+            "twitter:card": "summary",
+            "og:site_name": "Bill.com",
+            "twitter:url": "https://www.bill.com/node/",
+            "msvalidate.01": "169B17394E2CB572379AC59233B679C4",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:url": "https://www.bill.com/node/"
+          }
+        }
+      }
+    },
+    "1": {
+      "kind": "customsearch#result",
+      "title": "Bill & Melinda Gates Foundation",
+      "htmlTitle": "Bill</b> & Melinda Gates Foundation",
+      "link": "https://www.gatesfoundation.org/",
+      "displayLink": "www.gatesfoundation.org",
+      "snippet": "We seek to unlock the possibility inside every individual. We see equal value in \nall lives. And so we are dedicated to improving the quality of life for individuals ...",
+      "htmlSnippet": "We seek to unlock the possibility inside every individual. We see equal value in\nall lives. And so we are dedicated to improving the quality of life for individuals ...",
+      "cacheId": "-Zk09nz2ffMJ",
+      "formattedUrl": "https://www.gatesfoundation.org/",
+      "htmlFormattedUrl": "https://www.gatesfoundation.org/",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXmRvmNq3WbR4h1zlKkyEU0F4cjKfU251qIri-FxK1j5kMfmd_boTkHzM",
+            "width": "225",
+            "height": "225"
+          }
+        },
+        "metatags": {
+          "0": {
+            "og:image": "https://www.gatesfoundation.org/-/media/GFO/Site/Logo-Images/Gates_logo_1200x1200.jpg",
+            "article:published_time": "1/1/0001",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Bill & Melinda Gates Foundation",
+            "og:title": "Bill & Melinda Gates Foundation",
+            "title": "Bill & Melinda Gates Foundation",
+            "og:description": "We seek to unlock the possibility inside every individual. We see equal value in all lives. And so we are dedicated to improving the quality of life for individuals around the world. From the education of students in Chicago, to the health of a young mother in Nigeria, we are catalysts of human promise everywhere.",
+            "twitter:image": "https://www.gatesfoundation.org/-/media/GFO/Site/Logo-Images/Gates_logo_1200x1200.jpg",
+            "twitter:site": "@gatesfoundation",
+            "viewport": "width=device-width",
+            "twitter:description": "We seek to unlock the possibility inside every individual. We see equal value in all lives. And so we are dedicated to improving the quality of life for individuals around the world. From the education of students in Chicago, to the health of a young mother in Nigeria, we are catalysts of human promise everywhere.",
+            "servername": "987371-FE01",
+            "og:url": "https://www.gatesfoundation.org/"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://www.gatesfoundation.org/-/media/GFO/Site/Logo-Images/Gates_logo_1200x1200.jpg"
+          }
+        }
+      }
+    },
+    "2": {
+      "kind": "customsearch#result",
+      "title": "GI Bill",
+      "htmlTitle": "GI Bill</b>",
+      "link": "https://www.gibill.va.gov/",
+      "displayLink": "www.gibill.va.gov",
+      "snippet": "The GI Bill provides educational assistance to servicemembers, veterans, and \ntheir dependents.",
+      "htmlSnippet": "The GI Bill</b> provides educational assistance to servicemembers, veterans, and\ntheir dependents.",
+      "cacheId": "jqDqPv9ACtUJ",
+      "formattedUrl": "https://www.gibill.va.gov/",
+      "htmlFormattedUrl": "https://www.gibill</b>.va.gov/",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOSdLB8OekSPIhw9e04yCdIjt-ZzHNW9XSkzVj598SNxjqvILgOm1Mfg0",
+            "width": "310",
+            "height": "163"
+          }
+        },
+        "metatags": {
+          "0": {
+            "og:image": "https://www.va.gov/img/design/logo/va-og-image.png",
+            "twitter:title": "VA.gov | Veterans Affairs",
+            "twitter:card": "Summary",
+            "datereviewed": "20200415",
+            "author": "223D",
+            "subject": "GI Bill",
+            "og:title": "VA.gov | Veterans Affairs",
+            "language": "en",
+            "datecreated": "20131119",
+            "type": "Program Homepage",
+            "og:description": "Apply for and manage the VA benefits and services you’ve earned as a Veteran, Servicemember, or family member—like health care, disability, education, and more.",
+            "twitter:image": "https://www.va.gov/img/design/logo/va-og-twitter-image.png",
+            "twitter:site": "@DeptVetAffairs",
+            "twitter:description": "Apply for and manage the VA benefits and services you’ve earned as a Veteran, Servicemember, or family member—like health care, disability, education, and more."
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://www.va.gov/img/design/logo/va-og-image.png"
+          }
+        }
+      }
+    },
+    "3": {
+      "kind": "customsearch#result",
+      "title": "Bill | Definition of Bill by Merriam-Webster",
+      "htmlTitle": "Bill</b> | Definition of Bill</b> by Merriam-Webster",
+      "link": "https://www.merriam-webster.com/dictionary/bill",
+      "displayLink": "www.merriam-webster.com",
+      "snippet": "Kids Definition of bill. (Entry 1 of 3). 1 : the jaws of a bird together with their ...",
+      "htmlSnippet": "Kids Definition of bill</b>. (Entry 1 of 3). 1 : the jaws of a bird together with their ...",
+      "cacheId": "WVhqd0pJZRMJ",
+      "formattedUrl": "https://www.merriam-webster.com/dictionary/bill",
+      "htmlFormattedUrl": "https://www.merriam-webster.com/dictionary/bill</b>",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKksTSKYwpW8It403nrjw5t1_a8pLO2PI6ImEG7uvFrNfacgiziPZgG-_O",
+            "width": "225",
+            "height": "225"
+          }
+        },
+        "metatags": {
+          "0": {
+            "msapplication-tilecolor": "#2b5797",
+            "og:image": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
+            "twitter:title": "Definition of BILL",
+            "twitter:card": "summary",
+            "theme-color": "#ffffff",
+            "twitter:url": "https://www.merriam-webster.com/dictionary/bill",
+            "og:title": "Definition of BILL",
+            "twitter:aria-text": "Share the Definition of bill on Twitter",
+            "og:aria-text": "Post the Definition of bill to Facebook",
+            "og:description": "the jaws of a bird together with their horny covering; a mouthpart (such as the beak of a turtle) that resembles a bird's bill; the point of an anchor fluke… See the full definition",
+            "twitter:image": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
+            "referrer": "unsafe-url",
+            "fb:app_id": "178450008855735",
+            "twitter:site": "@MerriamWebster",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "the jaws of a bird together with their horny covering; a mouthpart (such as the beak of a turtle) that resembles a bird's bill… See the full definition",
+            "og:url": "https://www.merriam-webster.com/dictionary/bill"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png"
+          }
+        }
+      }
+    },
+    "4": {
+      "kind": "customsearch#result",
+      "title": "Bill Frisell",
+      "htmlTitle": "Bill</b> Frisell",
+      "link": "https://www.billfrisell.com/",
+      "displayLink": "www.billfrisell.com",
+      "snippet": "The music from these sessions was recorded live to cassette on a stereo \nPanasonic boombox over the stretch of one hot summer in downtown Manhattan, \n1981.",
+      "htmlSnippet": "The music from these sessions was recorded live to cassette on a stereo\nPanasonic boombox over the stretch of one hot summer in downtown Manhattan,\n1981.",
+      "cacheId": "_SM_53sdbVQJ",
+      "formattedUrl": "https://www.billfrisell.com/",
+      "htmlFormattedUrl": "https://www.bill</b>frisell.com/",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV-Kfz-2a6SmhDsfe-VvXhArqVoiinxWp7UwG9aBPpV4ngJWjJvVxizu0V",
+            "width": "285",
+            "height": "177"
+          }
+        },
+        "metatags": {
+          "0": {
+            "og:type": "website",
+            "twitter:title": "Bill Frisell",
+            "twitter:card": "summary",
+            "og:site_name": "Bill Frisell",
+            "viewport": "initial-scale=1",
+            "twitter:url": "https://www.billfrisell.com",
+            "og:title": "Bill Frisell",
+            "og:url": "https://www.billfrisell.com"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://images.squarespace-cdn.com/content/v1/5ae89e13266c07853ee42004/1527905498706-KRAVY9LZ9OCPCME5DXWH/ke17ZwdGBToddI8pDm48kHtGu_9fTtzKS3Mvm_M7xFh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ue2hGEovpRxZuM3p8Ubxo1HQKT3RMKUkbbv0Jd0L9L04Dxb2w5SppyqLtPdkEDDHsw/Frisell_MusisIs-13-Copy-2.jpg?format=2500w"
+          }
+        }
+      }
+    },
+    "5": {
+      "kind": "customsearch#result",
+      "title": "Home | Bill Gates",
+      "htmlTitle": "Home | Bill</b> Gates",
+      "link": "https://www.gatesnotes.com/",
+      "displayLink": "www.gatesnotes.com",
+      "snippet": "“Although eating whole-grain bread might make me feel virtuous, in my \nexperience it just never seems to taste as good as white bread.” read post. \nBecome a ...",
+      "htmlSnippet": "“Although eating whole-grain bread might make me feel virtuous, in my\nexperience it just never seems to taste as good as white bread.” read post.\nBecome a ...",
+      "cacheId": "1fgzQp_BJ70J",
+      "formattedUrl": "https://www.gatesnotes.com/",
+      "htmlFormattedUrl": "https://www.gatesnotes.com/",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe3LZobKyRlREffwu8QOLKu371nlwPFI9CUqAuJ05Y7mX09l0SkYvQUAA",
+            "width": "265",
+            "height": "190"
+          }
+        },
+        "metatags": {
+          "0": {
+            "msapplication-tilecolor": "#cc6633",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "skype_toolbar": "SKYPE_TOOLBAR_PARSER_COMPATIBLE",
+            "og:site_name": "gatesnotes.com",
+            "author": "Bill Gates",
+            "channel": "home",
+            "pageid": "110d559f-dea5-42ea-9c1c-8a5df7e70ef9",
+            "fb:pages": "216311481960",
+            "contenttype": "home",
+            "twitter:site": "@BillGates",
+            "viewport": "width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=0",
+            "apple-mobile-web-app-capable": "yes",
+            "og:locale": "en_US",
+            "pagetid": "b0a5b545-865d-47e6-ba89-75d0c712e0c7",
+            "og:url": "https://www.gatesnotes.com",
+            "subtopic": "content",
+            "twitter:account_id": "50393960",
+            "pagename": "Home"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://media.gatesnotes.com/-/media/Images/Articles/Health/What-our-leaders-can-do-now/WashingtonPost_Oped-Homepage_Hero-002.ashx"
+          }
+        }
+      }
+    },
+    "6": {
+      "kind": "customsearch#result",
+      "title": "Bill Burr: Home",
+      "htmlTitle": "Bill</b> Burr: Home",
+      "link": "https://billburr.com/",
+      "displayLink": "billburr.com",
+      "snippet": "An American stand-up comedian, actor and podcaster.",
+      "htmlSnippet": "An American stand-up comedian, actor and podcaster.",
+      "cacheId": "HbI8nOZXongJ",
+      "formattedUrl": "https://billburr.com/",
+      "htmlFormattedUrl": "https://bill</b>burr.com/",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSemNs21UDnJc4YEbE0PgiDWrXzyOydGG0PJVfRLQjmiNEYGbN_F8dUI8A",
+            "width": "288",
+            "height": "175"
+          }
+        },
+        "metatags": {
+          "0": {
+            "og:image": "https://billburr.com/wp-content/uploads/2019/10/bill-hero-1.jpg",
+            "og:type": "website",
+            "og:image:width": "1280",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Home - Bill Burr",
+            "og:site_name": "Bill Burr",
+            "og:title": "Home - Bill Burr",
+            "og:image:height": "780",
+            "og:description": "An American stand-up comedian, actor and podcaster.",
+            "og:image:secure_url": "https://billburr.com/wp-content/uploads/2019/10/bill-hero-1.jpg",
+            "twitter:image": "https://billburr.com/wp-content/uploads/2019/10/bill-hero-1.jpg",
+            "viewport": "width=device-width",
+            "twitter:description": "An American stand-up comedian, actor and podcaster.",
+            "og:locale": "en_US",
+            "og:url": "https://billburr.com/"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://billburr.com/wp-content/uploads/2019/10/bill-hero-1.jpg"
+          }
+        }
+      }
+    },
+    "7": {
+      "kind": "customsearch#result",
+      "title": "Bill O'Reilly | No Spin News",
+      "htmlTitle": "Bill</b> O'Reilly | No Spin News",
+      "link": "https://www.billoreilly.com/",
+      "displayLink": "www.billoreilly.com",
+      "snippet": "Bill O'Reilly on Tour - Who Wants to be President? Ft. Wayne, IN. Embassy \nTheatre. Oct 16 Fri. 7:00PM. Tickets.",
+      "htmlSnippet": "Bill</b> O'Reilly on Tour - Who Wants to be President? Ft. Wayne, IN. Embassy\nTheatre. Oct 16 Fri. 7:00PM. Tickets.",
+      "cacheId": "IIvmyjvkXDcJ",
+      "formattedUrl": "https://www.billoreilly.com/",
+      "htmlFormattedUrl": "https://www.bill</b>oreilly.com/",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTalVvJgaH6ExD2hNrnJYOXNCMvmNA63lFqTzJCpqu1EL7gY6XtS6Gm5vkg",
+            "width": "193",
+            "height": "261"
+          }
+        },
+        "metatags": {
+          "0": {
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "og:url": "https://www.billoreilly.com/"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://www.billoreilly.com/images/aandb/kch_mobile317.png"
+          }
+        }
+      }
+    },
+    "8": {
+      "kind": "customsearch#result",
+      "title": "'Lean On Me,' 'Lovely Day' singer Bill Withers dies at 81",
+      "htmlTitle": "'Lean On Me,' 'Lovely Day' singer Bill</b> Withers dies at 81",
+      "link": "https://apnews.com/e19138ee60f29a319e45bcfba3e39331",
+      "displayLink": "apnews.com",
+      "snippet": "Apr 3, 2020 ... Bill Withers, who wrote and sang a string of soulful songs in the 1970s that have \nstood the test of time, including “ Lean on Me, ” “Lovely Day” ...",
+      "htmlSnippet": "Apr 3, 2020 ...</b> Bill</b> Withers, who wrote and sang a string of soulful songs in the 1970s that have\nstood the test of time, including “ Lean on Me, ” “Lovely Day” ...",
+      "cacheId": "A3n1lYUZVQUJ",
+      "formattedUrl": "https://apnews.com/e19138ee60f29a319e45bcfba3e39331",
+      "htmlFormattedUrl": "https://apnews.com/e19138ee60f29a319e45bcfba3e39331",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStPHLh5XLYs4viZnE-fbchfnHNUeTmSNohKiQ0NMUOqZF9aMndIUH4ZKiJ",
+            "width": "275",
+            "height": "183"
+          }
+        },
+        "metatags": {
+          "0": {
+            "msapplication-config": "browserconfig.xml",
+            "og:image": "https://storage.googleapis.com/afs-prod/media/5a1c2fdf95d74075bd33dca9a261cb8a/3000.jpeg",
+            "theme-color": "#dedede",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "4507",
+            "article:published_time": "2020-04-03T14:01:45Z",
+            "og:site_name": "AP NEWS",
+            "twitter:url": "https://apnews.com/e19138ee60f29a319e45bcfba3e39331",
+            "og:description": "Bill Withers, who wrote and sang a string of soulful songs in the 1970s that have stood the test of time, including “ Lean on Me, ” “Lovely Day” and “Ain’t No Sunshine,” has died from heart...",
+            "twitter:image": "https://storage.googleapis.com/afs-prod/media/5a1c2fdf95d74075bd33dca9a261cb8a/3000.jpeg",
+            "twitter:site": "@ap",
+            "article:modified_time": "2020-04-03T17:26:13Z",
+            "twitter:title": "‘Lean On Me,’ ‘Lovely Day’ singer Bill Withers dies at 81",
+            "og:type": "article",
+            "article:section": "Bill Withers",
+            "og:title": "‘Lean On Me,’ ‘Lovely Day’ singer Bill Withers dies at 81",
+            "og:image:height": "3000",
+            "fb:pages": "249655421622",
+            "article:tag": "Bill Withers",
+            "fb:app_id": "870613919693099",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "viewport": "width=device-width, initial-scale=1",
+            "apple-mobile-web-app-capable": "yes",
+            "twitter:description": "Bill Withers, who wrote and sang a string of soulful songs in the 1970s that have stood the test of time, including “ Lean on Me, ” “Lovely Day” and “Ain’t No Sunshine,” has died from heart...",
+            "og:url": "https://apnews.com/e19138ee60f29a319e45bcfba3e39331"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://storage.googleapis.com/afs-prod/media/5a1c2fdf95d74075bd33dca9a261cb8a/3000.jpeg"
+          }
+        }
+      }
+    },
+    "9": {
+      "kind": "customsearch#result",
+      "title": "Bill Gates - YouTube",
+      "htmlTitle": "Bill</b> Gates - YouTube",
+      "link": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+      "displayLink": "www.youtube.com",
+      "snippet": "Hi, I'm Bill Gates. Tune in here to watch videos about my work. On this channel, I \npost videos about the issues I'm focused on: saving lives, improving educa...",
+      "htmlSnippet": "Hi, I'm Bill</b> Gates. Tune in here to watch videos about my work. On this channel, I\npost videos about the issues I'm focused on: saving lives, improving educa...",
+      "cacheId": "2jWOXldJT4MJ",
+      "formattedUrl": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+      "htmlFormattedUrl": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+      "pagemap": {
+        "cse_thumbnail": {
+          "0": {
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSM8u4BW8e_mt7irG8pq5AsENr8PQH_RGdQr-nasjcG5XJj4bvCHBdsdQ",
+            "width": "196",
+            "height": "110"
+          }
+        },
+        "xfn": {
+          "0": {}
+        },
+        "imageobject": {
+          "0": {
+            "width": "900",
+            "url": "https://yt3.ggpht.com/a/AATXAJyFBjn6qC3T3YJU4V1Osob8xDlMFtf-5-i2Cw=s900-c-k-c0xffffffff-no-rj-mo",
+            "height": "900"
+          }
+        },
+        "person": {
+          "0": {
+            "url": "http://www.youtube.com/user/thegatesnotes"
+          },
+          "1": {
+            "url": "https://plus.google.com/102973871878619868974"
+          }
+        },
+        "metatags": {
+          "0": {
+            "og:image": "https://yt3.ggpht.com/a/AATXAJyFBjn6qC3T3YJU4V1Osob8xDlMFtf-5-i2Cw=s900-c-k-c0xffffffff-no-rj-mo",
+            "twitter:app:url:iphone": "vnd.youtube://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+            "twitter:app:id:googleplay": "com.google.android.youtube",
+            "theme-color": "#ff0000",
+            "og:image:width": "900",
+            "twitter:card": "summary",
+            "og:site_name": "YouTube",
+            "twitter:url": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+            "twitter:app:url:ipad": "vnd.youtube://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+            "al:android:package": "com.google.android.youtube",
+            "twitter:app:name:googleplay": "YouTube",
+            "title": "Bill Gates",
+            "al:ios:url": "vnd.youtube://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+            "twitter:app:id:iphone": "544007664",
+            "og:description": "Hi, I'm Bill Gates. Tune in here to watch videos about my work. On this channel, I post videos about the issues I'm focused on: saving lives, improving educa...",
+            "al:ios:app_store_id": "544007664",
+            "twitter:image": "https://yt3.ggpht.com/a/AATXAJyFBjn6qC3T3YJU4V1Osob8xDlMFtf-5-i2Cw=s900-c-k-c0xffffffff-no-rj-mo",
+            "twitter:site": "@youtube",
+            "og:type": "profile",
+            "fb:profile_id": "BillGates",
+            "twitter:title": "Bill Gates",
+            "al:ios:app_name": "YouTube",
+            "og:title": "Bill Gates",
+            "og:image:height": "900",
+            "twitter:app:id:ipad": "544007664",
+            "al:web:url": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw?feature=applinks",
+            "og:video:tag": "gatesnotes",
+            "al:android:url": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw?feature=applinks",
+            "fb:app_id": "87741124305",
+            "twitter:app:url:googleplay": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+            "twitter:app:name:ipad": "YouTube",
+            "twitter:description": "Hi, I'm Bill Gates. Tune in here to watch videos about my work. On this channel, I post videos about the issues I'm focused on: saving lives, improving educa...",
+            "og:url": "https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw",
+            "al:android:app_name": "YouTube",
+            "twitter:app:name:iphone": "YouTube"
+          }
+        },
+        "cse_image": {
+          "0": {
+            "src": "https://i.ytimg.com/vi/sKs1a261YMM/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBc3QvqZpqd696NHPlLjy0s2IWNRw"
+          }
+        }
+      }
+    }
+  }
+}

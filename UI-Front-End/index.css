@@ -1,0 +1,73 @@
+/*@import url("bootstrap.min.css");*/
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+#headerbar{
+	width:900px;
+	margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.searchResults
+{
+    /*text-align: center;*/
+    margin-left: 15px;
+    margin-boottom: 20px;
+}
+
+.singleSearchResult
+{
+    display: block;
+    line-height: 1.5;
+    word-wrap: break-word;
+    margin-top: 20px;
+    /*margin-left: 10px;*/
+}
+.description
+{
+    margin-left: auto;
+}
+
+.link
+{
+    font-size: large;
+    color: blue;
+}
+
+.cite
+{
+    color: green;
+}
+
+small:before{
+	content:'' !important;
+}
+
+.space {
+	height: 15px;
+}
+
+
+
+.nav-tabs li { cursor: pointer; }
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #353535;
+	background-color: #ffffff;
+}
+a{
+	color:blue;
+}
+.container{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.nav-pills.red .nav-link.active
+{
+    background-color: red;
+}

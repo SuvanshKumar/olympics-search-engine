@@ -1,0 +1,819 @@
+{
+   "_type": "SearchResponse",
+   "queryContext": {
+      "originalQuery": "hello"
+   },
+   "webPages": {
+      "webSearchUrl": "https://www.bing.com/search?q=hello",
+      "totalEstimatedMatches": 217000000,
+      "value": [
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.0",
+            "name": "Hello!",
+            "url": "https://www.hellomagazine.com/",
+            "about": [
+               {
+                  "name": "Hello!"
+               },
+               {
+                  "name": "Hello!"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.hellomagazine.com",
+            "snippet": "HELLO! brings you the latest celebrity & royal news from the UK & around the world, magazine exclusives, fashion, beauty, lifestyle news, celeb babies, weddings, pregnancies and more!",
+            "dateLastCrawled": "2020-04-19T09:35:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.1",
+            "name": "OMFG - Hello - YouTube",
+            "url": "https://www.youtube.com/watch?v=ih2xubMaZWI",
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.youtube.com/watch?v=ih2xubMaZWI",
+            "snippet": "OMFG - Hello; Licensed to YouTube by UMPI, LatinAutor - UMPG, LatinAutor, UMPG Publishing, Warner Chappell, UNIAO BRASILEIRA DE EDITORAS DE MUSICA - UBEM, EMI Music Publishing, and 7 Music Rights ...",
+            "dateLastCrawled": "2020-04-18T08:08:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.2",
+            "name": "Hello Hello! Can You Clap Your Hands? | Original Kids Song ...",
+            "url": "https://www.youtube.com/watch?v=fN1Cyr0ZK9M",
+            "about": [
+               {
+                  "name": "Hello Hello"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.youtube.com/watch?v=fN1Cyr0ZK9M",
+            "snippet": "Hello Hello to everyone visiting from Leo Messi's Instagram post😁 . Use this song to say “Hello!” to classmates, parents, and friends from around the world. Listen to Super Simple Songs on ...",
+            "dateLastCrawled": "2020-04-18T07:45:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.3",
+            "name": "hello network",
+            "url": "http://www.hello.com/en/index.html",
+            "about": [
+               {
+                  "name": "Orkut Büyükkökten"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "www.hello.com",
+            "snippet": "hello has 1000s of communities! Create or join communities to connect around your specific interests. learn more. key features. personas & communities. Personas and user-created communities are focused on a particular passion. folio. Your folio is a personalized feed of content relevant to your chosen personas.",
+            "dateLastCrawled": "2020-04-18T00:03:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.4",
+            "name": "Hello! | Super Simple Songs - YouTube",
+            "url": "https://www.youtube.com/watch?v=tVlcKp3bWH8",
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.youtube.com/watch?v=tVlcKp3bWH8",
+            "snippet": "Designed to make it safer and simpler for young ones to watch online video, YouTube Kids includes a suite of parental controls so you can tailor the experience to suit your family’s needs ...",
+            "dateLastCrawled": "2020-04-18T04:03:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.5",
+            "name": "Hello | Definition of Hello by Merriam-Webster",
+            "url": "https://www.merriam-webster.com/dictionary/hello",
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.merriam-webster.com/dictionary/hello",
+            "snippet": "Hello definition is - an expression or gesture of greeting —used interjectionally in greeting, in answering the telephone, or to express surprise. How to use hello in a sentence.",
+            "dateLastCrawled": "2020-04-18T07:35:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.6",
+            "name": "Royal News - Latest Photos & Exclusives from The Royals ...",
+            "url": "https://www.hellomagazine.com/royalty/",
+            "about": [
+               {
+                  "name": "Faces"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.hellomagazine.com/royalty",
+            "snippet": "Get royal news from around the world with Hello Magazine. Bringing you the latest from the royals in Europe, and international royalty, with photos, features and live exclusives from world monarchies.",
+            "dateLastCrawled": "2020-04-19T09:19:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.7",
+            "name": "HELLO! US",
+            "url": "https://us.hellomagazine.com/",
+            "about": [
+               {
+                  "name": "Hello!"
+               },
+               {
+                  "name": "Hello!"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://us.hellomagazine.com",
+            "snippet": "HELLO! US edition brings you the latest celebrity & royal news from the US & around the world, magazine exclusives, celeb babies, weddings, pregnancies and more",
+            "dateLastCrawled": "2020-04-18T06:04:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.8",
+            "name": "HELLO! Canada",
+            "url": "https://ca.hellomagazine.com/",
+            "about": [
+               {
+                  "name": "Hello!"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://ca.hellomagazine.com",
+            "snippet": "Hello! Canada, News and pictures from the world of celebrity, royalty, entertainment, film and music; fashion trends and videos, health and beauty, celebrity profiles",
+            "dateLastCrawled": "2020-04-18T07:58:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.9",
+            "name": "Hello Magazin! - Najčitaniji i najtiražniji magazin u Srbiji",
+            "url": "https://www.hellomagazin.rs/",
+            "about": [
+               {
+                  "name": "Glossy Media doo"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.hellomagazin.rs",
+            "snippet": "Hello Preporuka. Promo. Aplikacija koja poznaje moju kožu lica. 16/04/2020. Dosta nas u ovom periodu radi od kuće, te smo gradske gužve, kafe i večere sa prijateljima, gledanje pozorišnih predstava i filmova u bioskopu zamenili sa čitanjem nagomilanih knjiga i magazina, pravljenjem jela koja su nas oduševljavala po restoranima ...",
+            "dateLastCrawled": "2020-04-19T20:07:00.0000000Z",
+            "language": "sr",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.10",
+            "name": "Kes - Hello (Folklore Riddim) \"2018 Soca\" [AdvoKit ...",
+            "url": "https://www.youtube.com/watch?v=eldeaIAv_wE",
+            "about": [
+               {
+                  "name": "Kes"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.youtube.com/watch?v=eldeaIAv_wE",
+            "snippet": "Licensed to YouTube by INgrooves (on behalf of Fox Fuse); ASCAP, PEDL, BMI - Broadcast Music Inc., UMPI, Regalias Digitales (Publishing), HAAWK Publishing, FOX FUSE, LLC. ... Hello (Folklore ...",
+            "dateLastCrawled": "2020-04-17T20:44:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.11",
+            "name": "Celebrity News - Pictures, Exclusive Interviews & Features ...",
+            "url": "https://www.hellomagazine.com/celebrities/",
+            "about": [
+               {
+                  "name": "Gasoline"
+               },
+               {
+                  "name": "Family"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.hellomagazine.com/celebrities",
+            "snippet": "Keeping you up to date on the world of celebrities with the latest news stories and pictures from Hello! Magazine online. Get exclusive interviews, features and videos of your favourite celebs and ...",
+            "dateLastCrawled": "2020-04-19T06:15:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.12",
+            "contractualRules": [
+               {
+                  "_type": "ContractualRules/LicenseAttribution",
+                  "targetPropertyName": "description",
+                  "targetPropertyIndex": 13,
+                  "mustBeCloseToContent": true,
+                  "license": {
+                     "name": "CC-BY-SA",
+                     "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+                  },
+                  "licenseNotice": "Text under CC-BY-SA license"
+               }
+            ],
+            "name": "Hello - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hello",
+            "about": [
+               {
+                  "name": "Hello"
+               }
+            ],
+            "isFamilyFriendly": true,
+            "displayUrl": "https://en.wikipedia.org/wiki/Hello",
+            "snippet": "Hello is a salutation or greeting in the English language. It is first attested in writing from 1826. Early uses. Hello, with that spelling, was used in publications in the US as early as the 18 October 1826 edition of the Norwich Courier of ...",
+            "dateLastCrawled": "2020-04-18T03:20:00.0000000Z",
+            "language": "en",
+            "isNavigational": false
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.13",
+            "name": "Hello bank! Banka, která myslí na lidi",
+            "url": "https://www.hellobank.cz/",
+            "isFamilyFriendly": true,
+            "displayUrl": "https://www.hellobank.cz",
+            "snippet": "Jsme Hello bank! Zkrátka banka, která myslí na lidi. Proto u nás většinu věcí zařídíte online a za 5 minut. Ať už je to běžný účet, půjčka nebo pojištění.",
+            "dateLastCrawled": "2020-04-18T05:40:00.0000000Z",
+            "language": "cs",
+            "isNavigational": false
+         }
+      ]
+   },
+   "entities": {
+      "value": [
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#Entities.0",
+            "contractualRules": [
+               {
+                  "_type": "ContractualRules/MediaAttribution",
+                  "targetPropertyName": "image",
+                  "mustBeCloseToContent": true,
+                  "url": "http://en.wikipedia.org/wiki/Hello!_(magazine)"
+               }
+            ],
+            "webSearchUrl": "https://www.bing.com/entityexplore?q=Hello!&filters=sid:%2201701f3a-f49e-4d13-1f44-9b6be6c61990%22&elv=AXXfrEiqqD9r3GuelwApulrWRY85*cKYE3eu!TjUR!O*l9JoTZRAV2JuPIGM5iFC9qMknaSw6ZQXUnIGSzh2d5QNYG2ka!d6cqwTC31S5aJF",
+            "name": "Hello!",
+            "url": "http://www.hellomagazine.com/",
+            "image": {
+               "name": "Hello!",
+               "thumbnailUrl": "https://www.bing.com/th?id=AMMS_ca9b8baaf89b64c030228113696e30ec&w=50&h=50&c=7&rs=1&qlt=80&cdv=1&pid=16.1",
+               "provider": [
+                  {
+                     "_type": "Organization",
+                     "url": "http://en.wikipedia.org/wiki/Hello!_(magazine)"
+                  }
+               ],
+               "hostPageUrl": "http://upload.wikimedia.org/wikipedia/tr/8/88/Hellokapak.jpg",
+               "width": 72,
+               "height": 72,
+               "sourceWidth": 220,
+               "sourceHeight": 300
+            },
+            "description": "Hello! is a weekly magazine specializing in celebrity news and human-interest stories, published in the United Kingdom since 1988. It is the United Kingdom local edition of ¡Hola!, the Spanish weekly magazine.",
+            "entityPresentationInfo": {
+               "entityScenario": "DisambiguationItem",
+               "entityTypeHints": [
+                  "Organization"
+               ]
+            },
+            "bingId": "01701f3a-f49e-4d13-1f44-9b6be6c61990"
+         },
+         {
+            "id": "https://api.cognitive.microsoft.com/api/v7/#Entities.1",
+            "contractualRules": [
+               {
+                  "_type": "ContractualRules/LicenseAttribution",
+                  "targetPropertyName": "description",
+                  "mustBeCloseToContent": true,
+                  "license": {
+                     "name": "CC-BY-SA",
+                     "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+                  },
+                  "licenseNotice": "Text under CC-BY-SA license"
+               },
+               {
+                  "_type": "ContractualRules/LinkAttribution",
+                  "targetPropertyName": "description",
+                  "mustBeCloseToContent": true,
+                  "text": "Wikipedia",
+                  "url": "http://en.wikipedia.org/wiki/Kes_(band)"
+               },
+               {
+                  "_type": "ContractualRules/MediaAttribution",
+                  "targetPropertyName": "image",
+                  "mustBeCloseToContent": true,
+                  "url": "http://en.wikipedia.org/wiki/Kes_(band)"
+               }
+            ],
+            "webSearchUrl": "https://www.bing.com/entityexplore?q=Kes&filters=sid:%220a7f036c-0b76-2ea9-2a1e-70f996c82971%22&elv=AXXfrEiqqD9r3GuelwApulrWRY85*cKYE3eu!TjUR!O*l9JoTZRAV2JuPIGM5iFC9qMknaSw6ZQXUnIGSzh2d5QNYG2ka!d6cqwTC31S5aJF",
+            "name": "Kes",
+            "url": "http://www.kestheband.com/",
+            "image": {
+               "name": "Kes",
+               "thumbnailUrl": "https://www.bing.com/th?id=AMMS_20522c01c8d692e7b929b68f02d4ba26&w=50&h=50&c=7&rs=1&qlt=80&cdv=1&pid=16.1",
+               "provider": [
+                  {
+                     "_type": "Organization",
+                     "url": "http://en.wikipedia.org/wiki/Kes_(band)"
+                  }
+               ],
+               "hostPageUrl": "http://upload.wikimedia.org/wikipedia/commons/7/77/Kees_and_Tessanne_Chin_Perform_at_SOBs.jpg",
+               "width": 72,
+               "height": 72,
+               "sourceWidth": 474,
+               "sourceHeight": 316
+            },
+            "description": "Kes is a Caribbean soca group formed in 2005 and known for their unique blend of soulful vocals, calypso inspired melodies, rock riffs and island beats, with hints of reggae. The band hails from the twin island Republic of Trinidad and Tobago and consists of founding members, brothers Kees Dieffenthaller, Hans Dieffenthaller, and Jon Dieffenthaller, along with long-time friend Riad Boochoon. Kes’ style has elevated them to mainstream popularity, allowing Kes to become a household name in their country and throughout the Caribbean circuit. The band constantly captivates and wins over their audiences, with their electric and high-energy performances.",
+            "entityPresentationInfo": {
+               "entityScenario": "DisambiguationItem",
+               "entityTypeHints": [
+                  "MusicGroup"
+               ]
+            },
+            "bingId": "0a7f036c-0b76-2ea9-2a1e-70f996c82971"
+         }
+      ]
+   },
+   "relatedSearches": {
+      "id": "https://api.cognitive.microsoft.com/api/v7/#RelatedSearches",
+      "value": [
+         {
+            "text": "hello fresh weekly menu",
+            "displayText": "hello fresh weekly menu",
+            "webSearchUrl": "https://www.bing.com/search?q=hello+fresh+weekly+menu"
+         },
+         {
+            "text": "hello fresh meals this week",
+            "displayText": "hello fresh meals this week",
+            "webSearchUrl": "https://www.bing.com/search?q=hello+fresh+meals+this+week"
+         },
+         {
+            "text": "hello uk royals",
+            "displayText": "hello uk royals",
+            "webSearchUrl": "https://www.bing.com/search?q=hello+uk+royals"
+         },
+         {
+            "text": "hello fresh log in",
+            "displayText": "hello fresh log in",
+            "webSearchUrl": "https://www.bing.com/search?q=hello+fresh+log+in"
+         },
+         {
+            "text": "hello neighbor animated song",
+            "displayText": "hello neighbor animated song",
+            "webSearchUrl": "https://www.bing.com/search?q=hello+neighbor+animated+song"
+         },
+         {
+            "text": "british royal family",
+            "displayText": "british royal family",
+            "webSearchUrl": "https://www.bing.com/search?q=british+royal+family"
+         },
+         {
+            "text": "hellofresh",
+            "displayText": "hellofresh",
+            "webSearchUrl": "https://www.bing.com/search?q=hellofresh"
+         },
+         {
+            "text": "hello youtube",
+            "displayText": "hello youtube",
+            "webSearchUrl": "https://www.bing.com/search?q=hello+youtube"
+         }
+      ]
+   },
+   "videos": {
+      "id": "https://api.cognitive.microsoft.com/api/v7/#Videos",
+      "readLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Hello",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Hello",
+      "isFamilyFriendly": true,
+      "value": [
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=91715B9C98E31A02466F91715B9C98E31A02466F",
+            "name": "Ismail Izzani & Andi Bernadee - Hello (Ismail Version | Official Music Video)",
+            "description": "#HelloABII \"A time will come when a murderer will not know why he has committed murder and the victim will not know why he has been killed\" - Sahih Muslim Be the first to the latest WPE videos: http://tiny.cc/m09mdz Listen to Hello: https://wmm.lnk.to/HelloAbii Caller Ring Tone: Maxis: Dial *131*645703# and press Call/Send Celcom: Dial *323 ...",
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?id=OVP.QWuRMWa47rO2aYZMmiGZ3QEsDh&pid=Api",
+            "datePublished": "2019-12-02T12:00:12.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=HCN_LqfNVP0",
+            "hostPageUrl": "https://www.youtube.com/watch?v=HCN_LqfNVP0",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=HCN_LqfNVP0",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT3M40S",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/HCN_LqfNVP0?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 3331978,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=D039537D8BE47E718764D039537D8BE47E718764",
+            "name": "Adele - Hello",
+            "description": "‘Hello' is taken from the new album, 25, out November 20. http://adele.com Available now from iTunes http://smarturl.it/itunes25 Available now from Amazon http://smarturl.it/25amazon Available now from Google Play http://smarturl.it/25gplay Available now at Target (US Only): http://smarturl.it/target25 Directed by Xavier Dolan, @XDolan Follow ...",
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?id=OVP.jayxpTPXbZuowUdivb9zPwHfFn&pid=Api",
+            "datePublished": "2015-10-23T06:54:18.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=YQHsXMglC9A",
+            "hostPageUrl": "https://www.youtube.com/watch?v=YQHsXMglC9A",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=YQHsXMglC9A",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT6M7S",
+            "motionThumbnailUrl": "https://tse4.mm.bing.net/th?id=OM.ZIdxfuSLfVM50A_1584268374&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/YQHsXMglC9A?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 2642921015,
+            "thumbnail": {
+               "width": 160,
+               "height": 119
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=6C5FD3CBD2443FFFF65B6C5FD3CBD2443FFFF65B",
+            "name": "Hello - Episode 1 | Nursery Rhymes and Songs for kids | BabyTV",
+            "description": "Download BabyTV App: IOS: https://itunes.apple.com/app/babytv-mobile-hd/id428267291?mt=8&ls=1 Android: https://play.google.com/store/apps/details?id=com.applicaster.babytv.vod To get BabyTV in your country visit https://www.babytv.com/around-the-world.aspx SUBSCRIBE for more videos every week: https://www.youtube.com/c/BabyTV?sub_confirmation=1 ...",
+            "thumbnailUrl": "https://tse1.mm.bing.net/th?id=OVP.bF9oCfj6alWsk7LDfKh0XAEsDh&pid=Api",
+            "datePublished": "2019-07-07T15:15:01.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=_p90ZD8oupo",
+            "hostPageUrl": "https://www.youtube.com/watch?v=_p90ZD8oupo",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=_p90ZD8oupo",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT1M53S",
+            "motionThumbnailUrl": "https://tse1.mm.bing.net/th?id=OM.W_b_P0TSy9NfbA_1585618626&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/_p90ZD8oupo?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 2537496,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=FCC6D4E0D45FF5D85046FCC6D4E0D45FF5D85046",
+            "name": "Andia - Hello, Hello (Official Video)",
+            "description": "Download Andia - Hello, Hello https://apple.co/2ZVS2wm Listen on Spotify https://spoti.fi/2tzxbD2 Síguenos/Follow us on Spotify: http://bit.ly/SpotifyByN Sigue todas nuestras novedades/ Discover new videos: http://smarturl.it/BYNSub Disfruta de nuestra mejor música / Enjoy our best HITS: http://smarturl.it/ByNHits ¡Si todavía quieres más ...",
+            "thumbnailUrl": "https://tse2.mm.bing.net/th?id=OVP.3LW69Dh1xfse5Y46w6CVqQEsDh&pid=Api",
+            "datePublished": "2020-01-09T14:00:04.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=QrG86Zsd4xE",
+            "hostPageUrl": "https://www.youtube.com/watch?v=QrG86Zsd4xE",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=QrG86Zsd4xE",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT3M20S",
+            "motionThumbnailUrl": "https://tse2.mm.bing.net/th?id=OM.RlDY9V_U4NTG_A_1585567019&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/QrG86Zsd4xE?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 9207,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=9A9AB22F5DC7A417F6E79A9AB22F5DC7A417F6E7",
+            "name": "Andi Bernadee & Ismail Izzani - Hello (Andi Version | Official Music Video)",
+            "description": "Andi Bernadee & Ismail Izzani - Hello [Andi Version | Official Music Video] Lepas korang tengok muzik video 🎥 ni mesti korang nak tau siapa pembunuhnya 🔪 kan? Tengoklah ni: https://youtu.be/hYq4dNUQk_8 Download RBT now! Maxis Caller Ringtones: Dial *131*645703# and press CALL/SEND Celcom Call Me Tones: Dial *323*323602# and press CALL ...",
+            "thumbnailUrl": "https://tse1.mm.bing.net/th?id=OVP.3lpO3zGUlc0UeLiCA1U_7AEsDh&pid=Api",
+            "datePublished": "2019-12-02T12:00:12.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=ryUcuJX2NPM",
+            "hostPageUrl": "https://www.youtube.com/watch?v=ryUcuJX2NPM",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=ryUcuJX2NPM",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT3M40S",
+            "motionThumbnailUrl": "https://tse1.mm.bing.net/th?id=OM.5_YXpMddL7Kamg_1583462552&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/ryUcuJX2NPM?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 1536992,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=30042EC1309E288A136530042EC1309E288A1365",
+            "name": "Hello",
+            "description": "Subscribe for more official content from Charlie Puth: https://Atlantic.lnk.to/CPsubscribe Follow Charlie http://charlieputh.com http://twitter.com/charlieputh http://facebook.com/charlieputh http://instagram.com/charlieputh https://soundcloud.com/charlieputh The official YouTube channel of Atlantic Records artist Charlie Puth. Subscribe for ...",
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?id=OVP.ZIUktzHgVsy8QCX7rDnepQEsDh&pid=Api",
+            "datePublished": "2019-08-18T18:46:39.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=EO1Z-sNx_bs",
+            "hostPageUrl": "https://www.youtube.com/watch?v=EO1Z-sNx_bs",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=EO1Z-sNx_bs",
+            "width": 960,
+            "height": 720,
+            "duration": "PT5M6S",
+            "motionThumbnailUrl": "https://tse4.mm.bing.net/th?id=OM.ZROKKJ4wwS4EMA_1584525236&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/EO1Z-sNx_bs?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 395169,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=5F2867E2EE22D6105BD75F2867E2EE22D6105BD7",
+            "name": "ROLE MODEL - hello!",
+            "description": "A song by ROLE MODEL hello! © ℗ 2019 Interscope Records/ROLE MODEL MUSIC, Inc. Directed By: https://theneueschool.com/ STREAM: smarturl.it/helloROLEMODEL Director - Dylan Knight DP - Ben Goodman Producer - Todd Blumberg and Cole Silberman 1st AC - Oliver Lukacs Steadicam - Travis Plante Gaffer - William Christensen Key Grip - Adam Siler ...",
+            "thumbnailUrl": "https://tse2.mm.bing.net/th?id=OVP.GG07We3KpmNu6DDhoVXPPwHgFo&pid=Api",
+            "datePublished": "2019-10-16T18:00:04.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=WWd2ZxToFUY",
+            "hostPageUrl": "https://www.youtube.com/watch?v=WWd2ZxToFUY",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=WWd2ZxToFUY",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT3M42S",
+            "motionThumbnailUrl": "https://tse2.mm.bing.net/th?id=OM.11sQ1iLu4mcoXw_1586685839&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/WWd2ZxToFUY?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 1244604,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=0D3E14A5792D2E7D654C0D3E14A5792D2E7D654C",
+            "name": "Hello Song - ChuChu TV Nursery Rhymes & Kids Songs",
+            "description": "Hello Song - ChuChu TV Nursery Rhymes & Kids Songs View other popular baby songs from ChuChu TV: Baby Loves Stargazing - Twinkle Twinkle Little Star 3 - https://www.youtube.com/watch?v=s1DtP... Baby is Sick Song - https://www.youtube.com/watch?v=NjIEh... Johny Johny Yes Papa - https://www.youtube.com/watch?v=594FC... Pat A Cake Song - https ...",
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?id=OVP.UsMNqgn1a0DSZjCXlLvEEQHgFo&pid=Api",
+            "datePublished": "2020-01-07T11:17:28.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=El9VkQCh4sg",
+            "hostPageUrl": "https://www.youtube.com/watch?v=El9VkQCh4sg",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=El9VkQCh4sg",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT3M56S",
+            "motionThumbnailUrl": "https://tse3.mm.bing.net/th?id=OM.TGV9Li15pRQ-DQ_1585240637&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/El9VkQCh4sg?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 2753345,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=D14F03A2BF8AF423B34CD14F03A2BF8AF423B34C",
+            "name": "Vanessa Amorosi - Hello Me (Official Music Video)",
+            "description": "Vanessa Amorosi's new single ‘Hello Me’ is out now. Download/stream: https://ffm.to/hellome Credits: Artist: Vanessa Amorosi Song Title: Hello Me Director: Melissa O’Connor Producer: Steve Scanlon and Melissa O’Connor DP: Rupert Smith Editor: Melissa O'Connor",
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?id=OVP.cF3KN4OUiIbmp8NEE8DFBgEsDh&pid=Api",
+            "datePublished": "2019-09-19T23:24:32.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=ihqFroJaCE8",
+            "hostPageUrl": "https://www.youtube.com/watch?v=ihqFroJaCE8",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=ihqFroJaCE8",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT3M46S",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/ihqFroJaCE8?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 44882,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         },
+         {
+            "webSearchUrl": "https://www.bing.com/videos/search?q=Hello&view=detail&mid=63E00D5BE851CE630E3463E00D5BE851CE630E34",
+            "name": "Hello Song for Kids (FAST) - Hello to YOU! by ELF Learning",
+            "description": "Wake up your classroom and get your students moving with this fun and fast Hello Song for Kids...Hello to YOU! Download the free lyrics sheet here: https://www.elflearning.jp/shop/ ---------- Subscribe for more Kids Songs! https://goo.gl/qPMW2J Watch MORE ELF Kids Videos https://goo.gl/UxUhFy ---------------- Get our 1st CD - Let’s Take A ...",
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?id=OVP.7YpZcvmQo-PuQQ1X7njABgEsDh&pid=Api",
+            "datePublished": "2019-06-27T01:18:03.0000000",
+            "publisher": [
+               {
+                  "name": "YouTube"
+               }
+            ],
+            "isAccessibleForFree": true,
+            "contentUrl": "https://www.youtube.com/watch?v=dy_BWXT6Fjc",
+            "hostPageUrl": "https://www.youtube.com/watch?v=dy_BWXT6Fjc",
+            "encodingFormat": "mp4",
+            "hostPageDisplayUrl": "https://www.youtube.com/watch?v=dy_BWXT6Fjc",
+            "width": 1280,
+            "height": 720,
+            "duration": "PT1M58S",
+            "motionThumbnailUrl": "https://tse3.mm.bing.net/th?id=OM.NA5jzlHoWw3gYw_1584572535&pid=Api",
+            "embedHtml": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/dy_BWXT6Fjc?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+            "allowHttpsEmbed": true,
+            "viewCount": 278272,
+            "thumbnail": {
+               "width": 160,
+               "height": 120
+            },
+            "allowMobileEmbed": true,
+            "isSuperfresh": false
+         }
+      ],
+      "scenario": "List"
+   },
+   "rankingResponse": {
+      "mainline": {
+         "items": [
+            {
+               "answerType": "Videos",
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#Videos"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 0,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.0"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 1,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.1"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 2,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.2"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 3,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.3"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 4,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.4"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 5,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.5"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 6,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.6"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 7,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.7"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 8,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.8"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 9,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.9"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 10,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.10"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 11,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.11"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 12,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.12"
+               }
+            },
+            {
+               "answerType": "WebPages",
+               "resultIndex": 13,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.13"
+               }
+            },
+            {
+               "answerType": "RelatedSearches",
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#RelatedSearches"
+               }
+            }
+         ]
+      },
+      "sidebar": {
+         "items": [
+            {
+               "answerType": "Entities",
+               "resultIndex": 0,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#Entities.0"
+               }
+            },
+            {
+               "answerType": "Entities",
+               "resultIndex": 1,
+               "value": {
+                  "id": "https://api.cognitive.microsoft.com/api/v7/#Entities.1"
+               }
+            }
+         ]
+      }
+   }
+}
